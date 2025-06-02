@@ -285,7 +285,7 @@ local function findArenaCoords()
     local function getRandomOffset()
         -- API.Math_RandomNumber(5) gera um número entre 0 e 4
         -- subtrair 2 para obter um range de -2 a 2
-        return API.Math_RandomNumber(5) - 2
+        return API.Math_RandomNumber(7) - 4
     end
 
     --- @type AllObject | nil
